@@ -1,0 +1,305 @@
+ 
+ /* ==============mobile =========== */
+ @media screen and (max-width:600px){
+
+    /* ======header part start ======= */
+    header{
+        display:block;
+    }
+    header #logo{
+        padding: 15px;
+    }
+    header nav{
+        position: relative;
+        right: 0;
+        top:0;
+    }
+  header nav ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    left: -999px;
+    top:30px;
+    display: block;
+    height: 50vh;
+    width: 100%;
+  }
+  header nav ul li{
+    float:none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  header nav .menu-icon{
+    display: inline-block;
+    position: absolute;
+    right:20px;
+    top:-50px;
+  }
+  header nav #menu-toggle{
+    display: none;
+  }
+  header nav #menu-toggle:checked ~ ul{
+    display: block;
+    left:0;
+  }
+  /* ======header part start ======= */
+
+
+
+  /*================= main section start ================ */
+  /* ========hero area start ===== */
+  main #hero{
+    display: flex;
+    flex-direction: column;
+  }
+  main #hero .hero_text{
+    max-width: 400px;
+     margin:  30px;
+   }
+   main #hero .hero_text h1{
+    color: var(--secondry-color);
+    font-size: 35px;
+  }
+  main #hero .hero_text p{
+    color: #ffffff80;
+    padding: 20px 0 ;
+    font-size: 13px;
+  }
+  main #hero .hero_text > .shop{
+    padding: 10px 20px;
+   
+  }
+  main #hero .hero_text > .explore{
+    padding: 10px 20px;
+  }
+
+
+  /* ======sofa img start========= */
+  main #hero 
+  .hero_img_sofa{
+   margin-top:20px;
+  }
+  main #hero 
+  .hero_img_sofa img{
+     width: 100%;
+  }
+
+    /* ===========hero area end =========== */
+
+    /* ===================product pricing start */
+    main #product_price{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding:30px;
+        margin-top: 70px;
+        background-color: #EFF2F1;
+       }
+        /* ===================product pricing end */
+
+
+        /* ===================why choose us part start*/
+        main #why_choose{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+           }
+           main #why_choose .what_services{
+            width:100%;
+           }
+
+            /*===== heading txt start========*/
+            main #why_choose 
+            .what_services 
+            .head_text h2{
+                font-size: 20px;
+                text-align: center;
+            }
+            main #why_choose 
+            .what_services 
+            .head_text p{
+                font-size: 13px;
+                text-align: center;
+            }
+            /*===== heading txt end========*/
+
+            /* ======bottom side text start  ============*/
+            main #why_choose 
+            .what_services div
+            .group_one{
+               display: flex;
+               padding: 30px;
+               justify-content: center;
+            }
+            main #why_choose 
+            .what_services div
+            .group_two{
+               display: flex;
+               padding: 30px;
+               justify-content: center;
+            }
+             /* ======bottom side text end  ============*/
+
+              /* ====right side (image)====  */
+            main #why_choose .images{
+                width:300px;
+                position: relative;
+                left: 30px;
+                
+            }
+            main #why_choose .images img{
+                width: 100%;
+                height: 350px;
+            }
+            /* ==========================why choose us section start ============================== */
+
+
+
+
+              /* ==========================We help design part start ============================== */
+            main #we_help{
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+            }
+
+            /* ======image side design start========= */
+            main #we_help .img_side{
+                width: 300px;
+                left: -10rem;
+                top: 35rem;
+               
+            }
+            main #we_help .img_side div img{
+                width: 100%;
+                 
+              }
+              main #we_help .img_side div .img1{
+                 width: 180px;
+                 height: 230px;
+              }
+              main #we_help .img_side div .img2{
+                 width: 100px;
+                 height:100px;
+              }
+              main #we_help .img_side div .img3{
+                width: 180px;
+                height: 230px;
+             }
+
+
+             /* ======image positioning======= */
+            main #we_help .img_side #first_image{
+                position: relative;
+                left: 2rem;
+            }
+            main #we_help .img_side #second_image{
+                position: relative;
+                left: 14rem;
+            }
+            main #we_help .img_side #third_image{
+                position: relative;
+                top:6.5rem;
+                left: 8rem;
+            }
+  /* ======image side design end========= */
+
+
+
+            /* ======text side design start========= */
+            main #we_help .text_side{
+                width: 100%;
+                height: 100vh;
+            }
+            main #we_help .text_side h3{
+                font-size: 20px;
+                text-align: center;
+            }
+              main #we_help .text_side p{
+                font-size: 13px;
+                text-align: center;
+            }
+            main #we_help .text_side ul li{
+                font-size: 14px;
+              }
+
+              /*======button design===== */
+              main #we_help .text_side a{
+                margin-left:0;
+              }
+            /*========= we help section end ======== */
+
+
+            /* ==========furniture colection part start ========== */
+            main #furniture .furniture__showcasing {
+                padding-bottom: 100px;
+            }
+            main #furniture .furniture__text h3{
+                font-size:20px;
+                text-align: center;
+           }
+            main #furniture .furniture__text p{
+                font-size:12px;
+                text-align: center;
+                padding:20px 3px;
+                left: 50px;
+                width: 250px;
+           }
+
+
+
+
+           /* ============foooter part start here =========== */
+
+           footer .subscribe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          footer .subscribe .subscribe__text h6{
+            font-size: 15px;
+            padding: 7px ;
+          }
+          footer .subscribe .subscribe__text h6 i{
+            padding: 0  8px;
+            font-size: 17px;
+             
+         }
+          footer .subscribe .subscribe__text input{
+            padding: 13px 25px;
+             margin-top: 10px;
+          }
+          footer .subscribe .subscribe__img{
+            max-width: 250px;
+            margin-top:20px;
+          }
+
+
+          /* =====footer copyright area ==== */
+          footer .copyright{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+           }
+           footer .copyright div p{
+            font-size: 13px;
+            margin: 10px 0;
+            text-align: center;
+          }
+           footer .copyright div a{
+            font-size: 13px;
+            margin: 10px 0;
+            padding: 10px;
+          }
+   }
+
